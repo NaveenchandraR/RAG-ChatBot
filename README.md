@@ -8,7 +8,7 @@ This repository contains the code for a customer service chatbot built using Lan
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Components](#components)
-- [Contributing](#contributing)
+- [Contributors](#contributors)
 - [License](#license)
 
 ## Installation
@@ -42,6 +42,8 @@ This repository contains the code for a customer service chatbot built using Lan
         GOOGLE_API_KEY=your_google_api_key_here
         ```
 
+5. Create a Google Gemini API key at [Gemini-API](https://ai.google.dev/gemini-api/docs/api-key)
+
 ## Usage
 
 1. Run the Streamlit app:
@@ -53,6 +55,8 @@ This repository contains the code for a customer service chatbot built using Lan
 2. Open the provided URL in your web browser.
 
 3. Enter your question in the text area and click the "Submit" button to get a response from the chatbot.
+
+4. Alternatively, a Jupyter Notebook is provided where you can run all the functions to test.
 
 ## Project Structure
 
