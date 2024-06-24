@@ -1,8 +1,8 @@
 from langchain.prompts import PromptTemplate
 
-
+# Function to create and return a prompt template
 def get_prompt():
-    
+    # Define the prompt template
     prompt_templet = """
     You are a customer service chatbot
 
@@ -20,6 +20,7 @@ def get_prompt():
     Answer:
     """
 
+    # Create a PromptTemplate instance
     prompt = PromptTemplate(
     template = prompt_templet,
     input_variables = ["context","question"]
